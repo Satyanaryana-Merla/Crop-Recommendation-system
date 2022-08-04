@@ -1,13 +1,71 @@
-# Crop-Recommendation-system
-India is an agricultural country as which is well known for agriculture in the world. 
-Agriculture is major field in the world and it is also known as backbone of India. Most of the population and economy in India involved in agriculture.
-Farmers aware of traditional farming and unaware of climatic conditions influence the crop production and leads to great loss. These risks can be reduced by applying machine learning model. 
-Thus, our solution to solve the problem is building recommender system based on climatic conditions like temperature, N, P, K, Ph, rainfall and humidity to decide the right crop.
-Our main aim is to predict multiple crops. In this paper, using machine learning approach like K-Nearest Neighbor (KNN), SVM, Random Forest, Decision Tree to predict which crop is best.
+# ML based Crop Recommendation App
 
+---
 
-Agriculture is a foremost field within the world, and it’s the backbone in the Republic of India. Agriculture has been in poor condition. India is an agricultural country with the highest land area of more than 18,91,761(1.9 million) square-kilometers under cultivation.
-Most of the Indian population is involved in agriculture and the Indian economy is largely dependent on agriculture. India possesses a power potential to be a superpower in the field of agriculture. Agriculture promotes economic growth and provides a way for rural development. The usage of technology-enhanced practices in agriculture is found less in India. Due to such old practices, the yield of the crop is not as estimated that made the farmers, lose hope in the agriculture process. Therefore, many farmers have neglected agriculture and started other occupations. In some cases, suicidal attempts by the farmers have also increased. 
-Harvest creation is reliant upon topographical variables as soil synthetic, temperature, stickiness and so forth. These factors plays a major role in increasing the crop production. Farmers are unaware from these factors and select the crop for cultivation based on their experience of growing particular crop again and again. Farmer’s crop selection accuracy is low not cost effective. It is important to practice modern methods of farming by using technology instead of practicing traditional farming method. To solve this problem, we offer a framework that will recommend crops dependent on the temperature of the general climate. Farmers can expand their yield by developing the harvest suggested by the framework.
-In this study, a Machine Learning approach is utilized to recommend the best crop, and Python is used as the programming language because it is generally accepted for experimentation in the Machine Learning field. Machine Learning is an important tool for data analysis that uses learning algorithms to iteratively learn from available data. Machine Learning is an area of artificial intelligence that tries to give computer methods for accumulating, changing, and updating the knowledge of intelligence systems.
-Meteorological factors play a vital role in Crop Production. Nearly 50 % of yield is attributed to the influence of climatic/Meteorological factors. The following are the major atmospheric weather variables which influences the crop production.
+## Technical Description
+
+This app uses a Dataset with 2200 Datapoins for Training and for Generating predictions.</br>
+Model used: Gaussian Naive Bayes</br>
+Accuracy: 99.54%
+
+---
+
+## Run it on your Browser now! (New)
+
+- Just click on this [link](https://share.streamlit.io/simeetnayan81/crop-recommendation/main/app.py)
+
+- Enjoy!
+
+---
+
+## How to run on Local Machine
+
+- Download the Github Package from this repo and Unzip it anywhere.
+
+- Download and install Anaconda for Windows from this [link](https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe) or Jupyter for Windows from this [link](https://jupyter.org/install).
+
+- Open Jupyter Notebook and navigate to the Crop-Recommendation folder.
+
+- Launch a new Jupyter Terminal and type these commands</br>
+```
+ pip install streamlit
+ pip install pandas
+ pip install scikit-learn
+```
+
+- Now navigate to *Crop-Recommendation* folder using ```cd``` command in the terminal.
+
+- Type this command
+```
+    streamlit run app.py
+```
+
+- Enjoy!
+
+---
+
+### Inspiration
+
+Many farmers are confused when making the choice before the sowing season. This app will help them with their choice and save them a lot of time and money.
+
+### What it does
+
+It takes input about the Farmer's soil and tells them which Crop would be best for their soil type using ML prediction.
+
+### How we built it
+
+We have used a dataset of 2200 entries and trained an ML model on it for making the predictions. We have then used Streamlit library to create a user-friendly and simple UI for anyone to use. It uses Jupyter environment to run.
+
+### Challenges we ran into
+
+Finding the right dataset, Training the model for high accuracy, Hosting the model as a web-app. 
+
+### Accomplishments that we're proud of
+
+High Accuracy of our ML model (99.54% during validation). Custom UI elements on Streamlit web-app.
+
+### What we learned
+
+Machine Learning, Using Streamlit for Hosting, Creating custom environment on Jupyter.
+
+---
