@@ -12,7 +12,7 @@ Accuracy: 99.54%
 
 ## Run it on your Browser now! (New)
 
-- Just click on this [link](https://share.streamlit.io/simeetnayan81/crop-recommendation/main/app.py)
+- Just click on this [link]https://github.com/Satyanaryana-Merla/Crop-Recommendation-system
 
 - Enjoy!
 
