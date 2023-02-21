@@ -1,4 +1,4 @@
-# ML based Crop Recommendation App
+# ML based Crop Recommendation Appliccation
 
 ---
 
